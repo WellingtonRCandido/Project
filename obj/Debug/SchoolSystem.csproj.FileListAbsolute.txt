@@ -1,0 +1,10 @@
+E:\SchoolSystem\SchoolSystem\SchoolSystem\bin\SchoolSystem.dll
+E:\SchoolSystem\SchoolSystem\SchoolSystem\bin\SchoolSystem.pdb
+E:\SchoolSystem\SchoolSystem\SchoolSystem\obj\Debug\SchoolSystem.dll
+E:\SchoolSystem\SchoolSystem\SchoolSystem\obj\Debug\SchoolSystem.pdb
+E:\SchoolSystem\SchoolSystem\SchoolSystem\obj\Debug\SchoolSystem.csprojResolveAssemblyReference.cache
+E:\Vendas\SchoolSystem\SchoolSystem\bin\SchoolSystem.dll.config
+E:\Vendas\SchoolSystem\SchoolSystem\bin\SchoolSystem.dll
+E:\Vendas\SchoolSystem\SchoolSystem\bin\SchoolSystem.pdb
+E:\Vendas\SchoolSystem\SchoolSystem\obj\Debug\SchoolSystem.dll
+E:\Vendas\SchoolSystem\SchoolSystem\obj\Debug\SchoolSystem.pdb

@@ -1,0 +1,78 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" ClientIDMode="Static" CodeBehind="Master.master.cs" Inherits="SystemAuto.Master" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<script src="js/Mascara.js" type="text/javascript"></script>
+<script src="js/CEPAut.js" type="text/javascript"></script>
+<head runat="server">
+    <title>..:: System Auto ::..</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript">
+        var jq = jQuery.noConflict();
+        jq(document).ready((function () {
+            jq('tbody tr:odd').addClass('odd');
+        }));
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="frmMaster" runat="server">
+
+        <div id="main">
+
+            <div class="header">
+                <a href="Veiculo.aspx" title="System Auto">
+                    <img src="images/logo.jpg" alt="System Auto" /></a>
+            </div>
+            <!-- /header -->
+
+            <div class="navSide radius">
+
+                <ul>
+                    <li><a href="http://localhost:13211/Veiculo.aspx" title="Ir para paginal Inicial">Inicial</a></li>
+                    <li>Lojas
+                        <ul class="itens">
+                            <li><a href="http://localhost:13211/Loja_Add.aspx" title="Cadastrar Lojas(s)">Cadastrar nova Loja(s)</a></li>
+                            <li><a href="http://localhost:13211/Loja_Edit.aspx" title="Editar Lojas">Editar Loja</a></li>
+                            <li><a href="http://localhost:13211/Loja_Pesquisar.aspx" title="Pesquisar Lojas(s)">Pesquisar Lojas(s)</a></li>
+                        </ul>
+                    </li>
+                    <li>Veiculos
+                        <ul class="itens">
+                            <li><a href="http://localhost:13211/Veiculo_Add.aspx" title="Cadastrar novo Veiculo">Cadastrar novo Veiculo</a></li>
+                            <li><a href="http://localhost:13211/Veiculo_Edit.aspx" title="Editar Veiculo">Editar Veiculo</a></li>
+                            <li><a href="http://localhost:13211/Veiculo_Pesquisar.aspx" title="Pesquisar Veiculos">Pesquisar Veiculos</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="http://localhost:13211/Tela_Login.aspx" title="Sair do Sistema">Sair</a></li>
+                   <!-- <li>Matérias
+                        <ul class="itens">
+                            <li><a href="#" title="Cadastrar nova Matéria">Cadastrar nova Matéria</a></li>
+                            <li><a href="#" title="Editar Matéria">Editar Matéria</a></li>
+                            <li><a href="#" title="Pesaquisar Matérias">Pesaquisar Matérias</a></li>
+                        </ul>
+                    </li>-->
+              
+                </ul>
+
+            </div>
+            <!-- /navSide -->
+
+            <div id="content" class="radius">
+                <asp:ContentPlaceHolder ID="cphContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <!-- /Content -->
+
+            <div class="footer">
+            </div>
+            <!-- /footer -->
+
+        </div>
+        <!-- /Main -->
+
+    </form>
+</body>
+</html>
